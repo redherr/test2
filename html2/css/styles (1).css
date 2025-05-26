@@ -1,0 +1,181 @@
+body{
+    animation-name: displayAnime;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+    }
+    
+@keyframes displayAnime{
+    0% {
+        opacity: .5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes SlideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-128px);
+    }
+    20%{
+        opacity: 0;
+        transform: translateX(-128px);
+    }
+    70%{
+        opacity: .7;
+        transform: translateX(64px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@media screen and (min-width:416px) {
+    h1{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+@media screen and (min-width:459px){
+    h1{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+@media screen and (min-width:512px){
+    h1{
+        padding-left: 0%;
+        padding-right: 0%; 
+    }
+}
+
+
+
+.pages{
+    text-align: center;
+    border: ridge;
+    border-width: 8px;
+    max-height:max-content;
+    min-width: min-content;
+}
+.intro{
+    border-color: white;
+    border-radius: 8px;
+    margin:16px auto;
+    max-width: 1100px;
+}
+
+
+
+.questions{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+.questions img{
+    height: 32px;
+}
+@media screen and (max-width:495px) {
+    .questions{
+        display:inline;
+        flex-direction: row;
+        justify-content:center;
+    }
+    .questions img{
+        height: 48px;
+    }
+}
+
+
+
+
+
+#rgb{
+    margin-bottom:10%;
+}
+.guide{
+    font-size:1.2em;
+    color: white;
+    border-radius: 4pc;
+    padding: .5%;
+    margin-bottom: 2%;
+}
+@media screen and (max-width:420px){
+    .guide{font-size: medium;}
+}
+@media screen and (min-width:960px){
+    .guide{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 960px;
+    }
+}
+.the-three{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    max-width: 480px;
+    margin:8px auto ;
+}
+.the-three img{
+    max-height: 45px;
+    border-width: 2px;
+    border: ridge;
+    border-color: yellow;
+    max-width: 100%;
+}
+.the-three [href]{
+    text-decoration: none;
+}
+.the-three [alt]{
+    color:black;
+    font-size: xx-large;
+}
+.go{
+    font-size: larger;
+    color:white;
+    border-color: yellow;
+    padding-top:8px;
+    padding-left:16px;
+    padding-right: 16px;
+}
+.go [alt]{
+    border-radius: 4px;
+    background: white;
+    font-size:x-large; 
+    color:black;
+}
+@media screen and (max-width:495px){
+    .go section{color:white;font-size: large;}
+    .go div{text-decoration:underline;}
+}
+button:hover{
+    color: yellow;
+    background-color: black;
+    cursor: pointer;
+}
+button{
+    font-size: xx-large;
+    color: black;
+    background-color:yellow;
+    margin-bottom:5%;
+    transition-property: color;
+    transition-duration: 1s;
+}
+input:hover{
+    opacity: 1;
+    color: yellow;
+    background-color: black;
+    cursor: pointer;
+}
+input{
+    opacity: .3;
+    color: black;
+    background-color: yellow;
+    font-size: xx-large;
+    font-weight : bold ;
+    margin-bottom:5%;
+    transition-property: background;
+    transition-duration: .5s;
+}

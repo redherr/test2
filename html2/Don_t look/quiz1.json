@@ -1,0 +1,70 @@
+{
+	"quiz": [
+		{
+			"q": "Q1",
+			"a": [
+				"1",
+				"2",
+				"3",
+				"4"
+			],
+			"correct": 1,
+			"commentary": "Ansewer"
+		}, {
+			"q": "Q2",
+			"a": [
+				"1",
+				"2",
+				"3",
+				"4"
+			],
+			"correct": 3,
+			"commentary": "Ansewer"
+			}, {
+				"q": "Q3",
+				"a": [
+					"1",
+					"2",
+					"3",
+					"4"
+				],
+				"correct": 3,
+				"commentary": "Ansewer"
+				}, {
+					"q": "Q4",
+					"a": [
+						"1",
+						"2",
+						"3",
+						"4"
+					],
+					"correct": 3,
+					"commentary": "Ansewer"
+					}, {
+						"q": "Q5",
+						"a": [
+							"1",
+							"2",
+							"3",
+							"4"
+						],
+						"correct": 1,
+						"commentary": "Ansewer"
+					}
+	],
+	"rank": [
+		{
+			"count": 5,
+			"comment": "すごいです。"
+		}, {
+			"count": 3,
+			"comment": "まあまあです。"
+		}, {
+			"count": 1,
+			"comment": "そんなにです。"
+		}, {
+			"count": 0,
+			"comment": "だめです。"
+		}
+	]
+}
