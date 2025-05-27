@@ -1,0 +1,28 @@
+.my-radio {
+  position: center;
+  display: block; /* 縦並びに */
+  margin: 0.5em 0; /* 前後のスペース */
+  padding-left: 128px;
+  cursor: pointer;
+  user-select: none;
+  /* inputは非表示にする */
+  input {
+    display: none;
+  }
+  background-color: aqua;
+  color: blue;
+}
+
+
+
+
+/* 選択されたとき */
+.my-radio {
+  /* 上の円 */
+  input:checked {
+    opacity: 1; /* 透明を解除 */
+    color: black;
+    background-color: black;
+  }
+}
+
